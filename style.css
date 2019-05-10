@@ -4,6 +4,7 @@
 /*universal styles*/
 .image-content{
   display: flex;
+  justify-content: center;
   flex-direction: column;
   height: 300px;
   font-family: Georgia;
@@ -102,6 +103,10 @@ header nav{
   text-align: left;
 }
 
+.lead-story .image-content span {
+  margin-left: 15px;
+}
+
 .fall-cancelled.image-content{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
 }
@@ -168,5 +173,4 @@ footer nav {
   font-weight: bold;
   color: white;
   padding-right: 20px;
-  border-right: 2px solid white;
 }
